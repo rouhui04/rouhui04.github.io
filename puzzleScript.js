@@ -4,7 +4,7 @@ function enterAns1(){
   if (ans1) {
     document.getElementById("ans1").innerHTML = "您刚输入的答案是：" + ans1;}
   if (ans1 === "9"){
-    alert("恭喜回答正确！赶紧前往下一题吧！")}
+    alert("恭喜回答正确！")}
   else{
     alert("很遗憾，" + ans1 + " 并不是正确答案，请再想想哦！")}
 }
